@@ -1,5 +1,5 @@
 
-import { Github, Twitter, Discord, Mail } from "lucide-react";
+import { Github, Twitter, MessageCircle, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const footerLinks = {
@@ -46,7 +46,7 @@ const Footer = () => {
                   <Twitter className="h-4 w-4" />
                 </Button>
                 <Button variant="ghost" size="sm" className="p-2 hover:bg-indigo-500/10">
-                  <Discord className="h-4 w-4" />
+                  <MessageCircle className="h-4 w-4" />
                 </Button>
                 <Button variant="ghost" size="sm" className="p-2 hover:bg-green-500/10">
                   <Mail className="h-4 w-4" />
